@@ -1870,6 +1870,47 @@ footer {
   .form-grid { grid-template-columns: 1fr; }
 }
 
+/* ─── LOCATION MAP ─── */
+.prop-map {
+  background: var(--off-white);
+}
+
+.prop-map-header {
+  padding: 64px 72px 40px;
+}
+
+.prop-map-header .label { margin-bottom: 12px; }
+
+.prop-map-title {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+  font-weight: 300;
+  color: var(--charcoal);
+}
+
+.prop-map-title em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.prop-map-embed {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+
+.prop-map-embed iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: grayscale(20%) contrast(1.05);
+}
+
+@media (max-width: 768px) {
+  .prop-map-header { padding: 48px 24px 28px; }
+  .prop-map-embed { height: 320px; }
+}
+
 /* ─── PAYMENT PLAN ─── */
 .payment-plan {
   background: var(--green-dark);
