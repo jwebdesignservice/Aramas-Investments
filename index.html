@@ -1,0 +1,518 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aramas Investments â€” Premium UAE Real Estate</title>
+  <meta name="description" content="Off-Plan Opportunities. Exceptional Returns. Aramas Investments helps expats and families find their place in Dubai, Abu Dhabi, and beyond." />
+  <link rel="icon" type="image/png" href="Images/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     NAVIGATION
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<nav class="nav" id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">
+      <img src="Images/logo.png" alt="Aramas logo" style="width:44px;height:44px;object-fit:contain;" />
+    </div>
+    <div class="nav-wordmark">
+      <span>Aramas</span>
+      <span>Property Investments</span>
+    </div>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Properties</a></li>
+    <li><a href="#">News</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a href="#contact" class="btn btn-gold nav-cta">Enquire Now</a>
+    <div class="nav-menu-btn" id="menuBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     FULLSCREEN NAV OVERLAY
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="nav-overlay" id="navOverlay">
+  <div class="nav-overlay-left">
+    <div class="nav-overlay-top">
+      <div class="nav-logo">
+        <div class="nav-logo-mark">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" stroke="#C9A96E" stroke-width="1" fill="none"/>
+            <path d="M14 20H26M20 14V26" stroke="#C9A96E" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="nav-wordmark">
+          <span>Aramas</span>
+          <span>Property Investments</span>
+        </div>
+      </div>
+      <div class="nav-overlay-close" id="overlayClose">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M1 1L13 13M13 1L1 13" stroke="currentColor" stroke-width="1"/>
+        </svg>
+        Close
+      </div>
+    </div>
+
+    <ul class="nav-overlay-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Meet the Team</a></li>
+      <li><a href="#">Properties</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <div class="nav-overlay-bottom">
+      <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+      <div style="text-align:right;">
+        <p style="font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.25);font-family:var(--sans);font-weight:300;">aramasinvestments.ae</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-overlay-right">
+    <img src="Images/hotel image home page.jpg" alt="Dubai skyline" />
+    <div class="nav-overlay-right-caption">
+      <p>Dubai, UAE Â· Prime Real Estate</p>
+    </div>
+  </div>
+</div>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     HERO
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="hero">
+  <div class="hero-img">
+    <img
+      src="Images/hero image.jpeg"
+      alt="Premium UAE luxury villa"
+      style="object-position: center center;"
+    />
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="label hero-label" data-reveal>Established Â· Dubai & Abu Dhabi</div>
+      <h1 class="hero-headline" data-reveal data-delay="1">
+        Aramas Property <em>Investments</em>
+      </h1>
+    </div>
+
+    <div class="hero-right" data-reveal data-delay="2">
+      <p class="hero-tagline">Off-Plan Opportunities.<br/>Exceptional Returns.</p>
+      <a href="#properties" class="btn btn-gold">
+        Start Your Journey
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M1 7H13M8 2l5 5-5 5" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     SEARCH BAR
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="search-bar">
+  <div class="search-bar-heading">
+    <div>
+      <div class="label" style="margin-bottom:12px;">Property Search</div>
+      <h2>Find Your <em>Perfect Property</em></h2>
+    </div>
+    <a href="#" class="btn btn-outline-dark" style="padding:12px 28px;font-size:0.65rem;">View All Properties</a>
+  </div>
+  <div class="search-bar-inner">
+    <div class="search-field">
+      <label for="status">Status</label>
+      <select id="status">
+        <option value="">All</option>
+        <option>Off-Plan</option>
+        <option>Ready</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label for="location">Location</label>
+      <select id="location">
+        <option value="">All Locations</option>
+        <option>Dubai</option>
+        <option>Abu Dhabi</option>
+        <option>Saadiyat Island</option>
+        <option>Dubai Hills</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label for="developer">Developer</label>
+      <select id="developer">
+        <option value="">All Developers</option>
+        <option>DAMAC</option>
+        <option>Emaar</option>
+        <option>Aldar</option>
+        <option>Binghatti</option>
+        <option>Mered</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label for="price">Price (AED)</label>
+      <select id="price">
+        <option value="">Any Price</option>
+        <option>Under 2M</option>
+        <option>2M â€“ 5M</option>
+        <option>5M â€“ 10M</option>
+        <option>10M+</option>
+      </select>
+    </div>
+    <div class="search-actions">
+      <button class="btn btn-gold">Search</button>
+      <button class="btn-reset">Reset</button>
+    </div>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     SPLIT INTRO â€” OFF-PLAN DEVELOPMENTS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="split-intro">
+  <div class="split-intro-img">
+    <img
+      src="Images/home page image.jpg"
+      alt="Off-plan development UAE"
+      style="object-position: center center;"
+    />
+  </div>
+
+  <div class="split-intro-content">
+    <div class="split-icon">
+      <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22 2L42 12V32L22 42L2 32V12L22 2Z" stroke="#C9A96E" stroke-width="0.8" fill="none"/>
+        <path d="M22 10L34 16V28L22 34L10 28V16L22 10Z" stroke="#C9A96E" stroke-width="0.5" fill="none" opacity="0.4"/>
+      </svg>
+    </div>
+
+    <h2 class="split-headline" data-reveal>
+      Off-Plan Developments<br/>in Prime UAE Locations
+    </h2>
+
+    <div class="split-body" data-reveal data-delay="1">
+      <p>
+        Invest with confidence in Dubai and Abu Dhabi's booming real estate market.
+        Our curated portfolio of off-plan and luxury developments is designed to deliver
+        long-term value for global investors and expats.
+      </p>
+      <p>
+        What sets us apart is our <strong style="color:rgba(255,255,255,0.9);font-weight:400;">personalised approach</strong>.
+        We take the time to understand your aspirations and match them with properties
+        that meet your needs today while building value for tomorrow.
+      </p>
+      <a href="#" class="btn btn-outline-light" style="margin-top:36px;">
+        Explore Developers
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <path d="M1 6H11M7 2l4 4-4 4" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     STATS BAR
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="stats-bar">
+  <div class="stats-bar-inner">
+    <div class="stat-item" data-reveal>
+      <div class="stat-number">200<span style="font-size:2rem">+</span></div>
+      <div class="stat-label">Properties Listed</div>
+    </div>
+    <div class="stat-item" data-reveal data-delay="1">
+      <div class="stat-number">AED 2B<span style="font-size:1.4rem">+</span></div>
+      <div class="stat-label">Total Portfolio Value</div>
+    </div>
+    <div class="stat-item" data-reveal data-delay="2">
+      <div class="stat-number">15<span style="font-size:1.6rem">%</span></div>
+      <div class="stat-label">Average Annual Returns</div>
+    </div>
+    <div class="stat-item" data-reveal data-delay="3">
+      <div class="stat-number">5<span style="font-size:2rem">+</span></div>
+      <div class="stat-label">Years Market Expertise</div>
+    </div>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     FEATURED PROPERTIES
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="properties" id="properties">
+  <div class="section-header" data-reveal>
+    <h2 class="section-title">Featured<br/><em style="font-style:italic;color:rgba(255,255,255,0.5);">Properties</em></h2>
+    <a href="#" class="section-link">View All Properties</a>
+  </div>
+
+  <div class="properties-grid">
+    <a href="property.html" class="prop-card">
+      <div class="prop-card-img">
+        <img
+          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80"
+          alt="The Row Saadiyat"
+        />
+      </div>
+      <div class="prop-card-overlay"></div>
+      <div class="prop-card-content">
+        <div class="prop-card-tag">Abu Dhabi Â· Aldar</div>
+        <div class="prop-card-name">The Row Saadiyat</div>
+        <div class="prop-card-location">Saadiyat Island</div>
+        <div class="prop-card-cta">Explore Property</div>
+      </div>
+    </a>
+
+    <a href="#" class="prop-card">
+      <div class="prop-card-img">
+        <img
+          src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80"
+          alt="Riviera Residences by Mered"
+        />
+      </div>
+      <div class="prop-card-overlay"></div>
+      <div class="prop-card-content">
+        <div class="prop-card-tag">Abu Dhabi Â· Mered</div>
+        <div class="prop-card-name">Riviera Residences by Mered</div>
+        <div class="prop-card-location">Ream Island Waterfront</div>
+        <div class="prop-card-cta">Explore Property</div>
+      </div>
+    </a>
+
+    <a href="#" class="prop-card">
+      <div class="prop-card-img">
+        <img
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+          alt="Hills Edge by Emaar"
+        />
+      </div>
+      <div class="prop-card-overlay"></div>
+      <div class="prop-card-content">
+        <div class="prop-card-tag">Dubai Â· Emaar</div>
+        <div class="prop-card-name">Hills Edge by Emaar</div>
+        <div class="prop-card-location">Dubai Hills</div>
+        <div class="prop-card-cta">Explore Property</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     MISSION
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="mission section-pad">
+  <div class="mission-inner">
+    <div class="mission-img-wrap" data-reveal="left">
+      <div class="mission-img-main">
+        <img
+          src="Images/about-main.jpg"
+          alt="Dubai Marina skyline"
+          style="object-position: center center;"
+        />
+      </div>
+      <div class="mission-img-accent">
+        <img
+          src="Images/about-accent.jpg"
+          alt="Luxury beachfront villa"
+          style="object-position: center center;"
+        />
+      </div>
+    </div>
+
+        <div class="mission-text">
+      <div class="label" data-reveal>About Aramas</div>
+      <h2 class="mission-quote" data-reveal data-delay="1">Aramas Property Investments</h2>
+      <p class="mission-body" data-reveal data-delay="2">
+        At Aramas Property Investments, we are committed to enhancing the real estate
+        investment experience in the UAE by offering simplicity, transparency, and honest
+        guidance. We help both international and local investors navigate the dynamic UAE
+        property market with confidence, providing tailored advice to ensure the best
+        returns &mdash; whether the goal is to invest or find a dream home.
+      </p>
+      <blockquote class="mission-testimonial" data-reveal data-delay="3">
+        <p>&ldquo;Aramas Property Investments made my first Dubai property purchase incredibly
+        smooth. The team guided me through every step, explained the market clearly, and
+        helped me secure a unit with excellent ROI potential. Their transparency and
+        professionalism gave me complete confidence. I&rsquo;ll definitely be investing with
+        Aramas again.&rdquo;</p>
+        <cite>
+          <span class="cite-name">R. James</span>
+          <span class="cite-location">England</span>
+        </cite>
+      </blockquote>
+      <a href="#" class="btn btn-green" data-reveal data-delay="4" style="margin-top:40px;">
+        About Us
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <path d="M1 6H11M7 2l4 4-4 4" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </a>
+    </div>  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     PARTNERS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="partners">
+  <div class="partners-label" data-reveal>
+    <div class="label" style="justify-content:center;">
+      <span>Trusted Partners</span>
+    </div>
+    <h3>Our Developer Network</h3>
+  </div>
+  <div class="partners-grid">
+    <div class="partner-logo-img"><img src="Images/damac.webp" alt="DAMAC" /></div>
+    <div class="partner-logo-img"><img src="Images/binghatti.webp" alt="Binghatti" /></div>
+    <div class="partner-logo-img"><img src="Images/Emaar.webp" alt="Emaar" /></div>
+    <div class="partner-logo-img"><img src="Images/Aldar.webp" alt="Aldar" /></div>
+    <span class="partner-logo">Mered</span>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     LATEST NEWS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="news">
+  <div class="section-header" data-reveal>
+    <h2 class="section-title dark">Latest News<br/><em style="font-style:italic;color:var(--mid-grey);">& Insights</em></h2>
+    <a href="#" class="section-link" style="color:var(--green);border-bottom-color:var(--green);">All News</a>
+  </div>
+
+  <div class="news-grid">
+    <article class="news-card" data-reveal>
+      <div class="news-card-img">
+        <img
+          src="Images/latest news img.jpg"
+          alt="Reem Island Abu Dhabi"
+        />
+      </div>
+      <div class="news-card-body">
+        <div class="news-card-date">February 9, 2026</div>
+        <h3 class="news-card-title">Reem Island: Abu Dhabi's Downtown in the Making</h3>
+        <a href="#" class="news-card-link">Read More</a>
+      </div>
+    </article>
+
+    <article class="news-card" data-reveal data-delay="1">
+      <div class="news-card-img">
+        <img
+          src="Images/news-2.jpg"
+          alt="Abu Dhabi real estate market"
+          style="object-position: center center;"
+        />
+      </div>
+      <div class="news-card-body">
+        <div class="news-card-date">February 9, 2026</div>
+        <h3 class="news-card-title">Abu Dhabi Real Estate Market 2026: Strategic Growth, Global Capital, and Emerging Investment Corridors</h3>
+        <a href="#" class="news-card-link">Read More</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     CONTACT CTA
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="contact-cta" id="contact">
+  <div class="label" data-reveal>Get In Touch</div>
+  <h2 data-reveal data-delay="1">
+    Ready to find your place<br/>in the UAE?
+  </h2>
+  <div class="contact-cta-btns" data-reveal data-delay="2">
+    <a href="mailto:info@aramasinvestments.ae" class="btn btn-gold">Start Your Journey</a>
+    <a href="tel:+971000000000" class="btn btn-outline-light">Schedule a Call</a>
+  </div>
+</section>
+
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     FOOTER
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="nav-logo">
+        <div class="nav-logo-mark">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" stroke="#C9A96E" stroke-width="1" fill="none"/>
+            <path d="M14 20H26M20 14V26" stroke="#C9A96E" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="nav-wordmark">
+          <span>Aramas</span>
+          <span>Property Investments</span>
+        </div>
+      </div>
+      <p>
+        Helping expats, families and global investors find their place
+        in Dubai, Abu Dhabi, and beyond.
+      </p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">in</a>
+        <a href="#" aria-label="LinkedIn">li</a>
+        <a href="#" aria-label="X/Twitter">ð•</a>
+      </div>
+    </div>
+
+    <nav class="footer-nav">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Meet the Team</a></li>
+        <li><a href="#">Properties</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-nav">
+      <h4>Properties</h4>
+      <ul>
+        <li><a href="property.html">The Row Saadiyat</a></li>
+        <li><a href="#">Riviera Residences by Mered</a></li>
+        <li><a href="#">Hills Edge by Emaar</a></li>
+        <li><a href="#">View All Properties</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-nav">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@aramasinvestments.ae">info@aramasinvestments.ae</a></li>
+        <li><a href="#">Dubai, United Arab Emirates</a></li>
+        <li><a href="#">Abu Dhabi, United Arab Emirates</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Â© 2025 Aramas Property Investments Â· All Rights Reserved</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
