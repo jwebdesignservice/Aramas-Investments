@@ -524,11 +524,48 @@ button { cursor: pointer; border: none; background: none; font-family: var(--san
   border: 1px solid rgba(26, 58, 42, 0.25);
   cursor: pointer;
   transition: background 0.3s, border-color 0.3s;
+  position: relative;
 }
 
 .search-field:hover {
   background: #fff;
   border-color: var(--gold);
+}
+
+.select-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.select-wrap select {
+  flex: 1;
+  min-width: 0;
+  /* Extend over the arrow so the full row is clickable */
+  margin-right: -28px;
+  padding-right: 28px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.select-arrow {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid var(--gold);
+  border-bottom: 1.5px solid var(--gold);
+  transform: rotate(45deg);
+  margin-top: -4px;
+  pointer-events: none;
+  position: relative;
+  z-index: 0;
+  transition: border-color 0.3s;
+}
+
+.search-field:hover .select-arrow {
+  border-color: var(--green);
 }
 
 .search-field label {
@@ -967,13 +1004,12 @@ button { cursor: pointer; border: none; background: none; font-family: var(--san
 
 .mission-quote {
   font-family: var(--serif);
-  font-size: clamp(1.9rem, 2.8vw, 2.8rem);
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
   font-weight: 300;
   color: var(--charcoal);
-  line-height: 1.2;
-  margin-bottom: 28px;
-  font-style: normal;
-  letter-spacing: 0.01em;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  font-style: italic;
 }
 
 .mission-body {
@@ -981,6 +1017,20 @@ button { cursor: pointer; border: none; background: none; font-family: var(--san
   color: #666;
   line-height: 1.95;
   font-weight: 300;
+}
+
+.mission-body + .mission-body { margin-top: 16px; }
+
+.mission-body--italic {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--charcoal);
+  font-weight: 300;
+  line-height: 1.7;
+  border-left: 2px solid var(--gold);
+  padding-left: 20px;
+  margin: 20px 0 4px;
 }
 
 .mission-text .btn { margin-top: 44px; }
